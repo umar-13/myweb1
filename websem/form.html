@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>web</title>
+        <script src="form.js"></script>
+    </head>
+<body>
+    <div>
+        <h1>Form</h1>
+    </div>
+    <div>
+        <form name="formName" onsubmit="return Validateform()">
+            <div>
+                <label>Name</label>
+                <span>*</span>
+                <span>:</span>
+                <input type="text" id="nameid" name="nameName" required>
+                <div>
+                    <form><br>
+                        <div>
+                            <label>email</label>
+                            <span>*</span>
+                            <span>:</span>
+                            <input type="email" id="emailid" name="nameemail" required>
+                        </div>
+                    </form>
+                    <div>
+                        <form><br>
+                            <div>
+                                <label>password</label>
+                                <span>*</span>
+                                <span>:</span>
+                                <input type="password" id="password" name="namepassword" required>
+                            </div>
+                        </form>
+                        <div>
+                            <form><br>
+                                <div>
+                                    <label>date</label>
+                                    <span>*</span>
+                                    <span>:</span>
+                                    <input type="date" id="date" name="namedate" required>
+                                </div>
+                            </form>
+                            <div>
+                                <form><br>
+                                    <div>
+                                        <label>gender</label>
+                                        <span>male</span>
+                                        <input type="radio" id="maleid" name="gender">
+                                        <span>female</span>
+                                        <input type="radio" id="female" name="gender">
+                                    </div>
+                                </form>
+                            <button type="submit" value="submit">submit</button>
+                            <button type="reset" value="clear" onclick="resetform">clear</button>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        </form>
+    </div>

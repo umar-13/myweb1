@@ -1,0 +1,14 @@
+h3{
+    color: #000;
+    background-color: aqua;
+    text-align: center;
+    font-size: 30px;
+    border: solid 2px purple;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h4{
+    color: #000;
+    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+}
